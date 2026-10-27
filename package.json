@@ -1,0 +1,43 @@
+{
+  "name": "emoji-finder-web",
+  "private": true,
+  "version": "1.1.0",
+  "description": "서버리스 이모지 리스트 웹 앱",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@radix-ui/react-collapsible": "1.1.3",
+    "@radix-ui/react-tabs": "1.1.3",
+    "clsx": "2.1.1",
+    "lucide-react": "0.487.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "sonner": "2.0.3",
+    "tailwind-merge": "3.2.0",
+    "tw-animate-css": "1.3.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "4.7.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "~5.7.0",
+    "vite": "6.4.5",
+    "vitest": "4.1.12",
+    "jsdom": "^27.4.0",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/jest-dom": "^6.9.1"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
